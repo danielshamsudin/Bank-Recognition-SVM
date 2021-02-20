@@ -10,8 +10,6 @@ from tkinter import messagebox
 from svm import gen_image, pred, conf_mat, class_report
 import webbrowser
 from PIL import Image, ImageTk
-from pandastable import Table, TableModel
-
 
 try:
     import Tkinter as tk
