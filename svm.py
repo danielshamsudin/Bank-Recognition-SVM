@@ -12,7 +12,7 @@ from sklearn.metrics import classification_report, accuracy_score, confusion_mat
 import random
 from PIL import Image, ImageTk
 
-dir = 'D:/MMU/TPR/project/gui' # change before run
+dir = '' # change before run
 
 train_data = joblib.load(os.path.join(dir, 'traindata.h5'))
 label = np.concatenate((np.ones(35), np.full(48,2), np.full(32,3), np.full(53,4)),axis=0)
